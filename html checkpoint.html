@@ -1,56 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML CHECKPOINT</title>
         <link rel="stylesheet" href="./style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
     </head>
     <body>
-        <header class="header">
+        <header>
+          <a name="TextOnPage"></a>
+          <h1>MY AFRICA</h1>
             <nav class="navbar">
-                <ul class="navbar">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#work">Work</a></li>
-                  <li><a href="#resume">Resume</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Forums</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Explore</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </nav>              
         </header>
-        <section class="feature-box" id="about">
-            <h2 class="feature-title">About</h2>
-            <p class="feature-description">Your about content goes here.</p>
-          </section>
-          
-          <section id="work">
-            <h2 class="feature-title">Work</h2>
-            <p class="feature-description">Your work content goes here.</p>
-          </section>
-          
-          <section id="resume">
-            <h2 class="feature-header">Resume</h2>
-            <p class="feature-description">Your resume content goes here.</p>
-          </section>
-          
-          <section id="contact">
-            <h2 class="feature-header">Contact</h2>
-            <form action="/submit_contact" method="post">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required><br>
-          
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required><br>
-          
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" required></textarea><br>
-          
+
+
+        <section id="header">
+          <h1> I Love African Countries</h1>
+        </section>
+
+        <main>
+          <article>
+            <h2> Here are some african countries that I love</h2>
+            <ol class="content">
+              <div>
+                <h1>South Africa</h1>
+                <img src="download (1).png" alt="image of south african citizens" height="200px" width="500px">
+                <p>South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems.<br>
+                Inland safari destination Kruger National Park is populated by big game. The Western Cape offers beaches, lush winelands<br>
+                around Stellenbosch and Paarl, craggy cliffs at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city<br> 
+                of Cape Town, beneath flat-topped Table Mountain.
+                </p>
+                <ul>
+                <li>Capital: Cape Town, Pretoria, Bloemfontein</li>
+                <li>Currency: Rand</li>
+                <li>President: Cyril Ramaphosa</li>
+                <li>Population: 59.39 million (2021)</li>
+                <li>Dailing code: +27</li>
+                </ul>
+            
+                <h1>Nigeria</h1>
+                <img src="download (2).png" alt="pictuer of nigerian society" height="200px" width="500px">
+                <p>Nigeria, an African country on the Gulf of Guinea, has many natural landmarks and wildlife reserves. Protected areas such as<br> 
+                  Cross River National Park and Yankari National Park have waterfalls, dense rainforest, savanna and rare primate habitats. One of<br> 
+                  the most recognizable sites is Zuma Rock, a 725m-tall monolith outside the capital of Abuja that’s pictured on the national currency.<br>
+                </p>
+                <ul>
+                <li>Capital: Abuja</li>
+                <li>Currency: Cedis</li>
+                <li>President: Bola Tinubu</li>
+                <li>Population: 213.4 million (2021)</li>
+                <li>Dailing code: +234</li>
+                </ul>
+            
+                <h1>Ghana</h1>
+                <img src="download (3).png" alt="picture of ghana" height="200px" width="500px">
+                <p>Ghana, officially the Republic of Ghana, is a country in West Africa. It abuts the Gulf of Guinea and the Atlantic Ocean to the south,<br> 
+                  sharing borders with Ivory Coast in the west, Burkina Faso in the north, and Togo in the east. Ghana is a multiethnic country rich in natural<br> 
+                  resources and is one of the most stable and democratic countries in West Africa.<br>
+                </p>
+                <ul>
+                <li>Capital: Accra</li>
+                <li>Currency: Cedis</li>
+                <li>President: Nana Akufo-Addo</li>
+                <li>Population: 32.83 million (2021) World Bank</li>
+                <li>Dailing code: +233</li>
+                </ul>
+              </div>
+            </ol>
+          </article>
+        </main>
+
+
+      
+          <section>
+            <h2>Sign Up:</h2>
+            <p class="text"><strong>Share with us what yours are...</strong></p>
+            <form id="contact">
+              <label>Full name</label>
+              <input type="text" name="Fullname"/>
+              <label>Email</label>
+              <input type="Email" name="Email"/>
+              <label>Phone number</label>
+              <input type="number" name="number"/><br>
               <button type="submit">Submit</button>
             </form>
           </section>
+
+
           <footer class="feature">
-            <p class="footer-text">Made by Chukwu Benjamin 2023. All rights reserved.</p>
+            <p class="footer-text">Made by Chukwu Benjamin 2023. All rights reserved. MyCodingJourney.</p>
+            <h3>LET US INFORM YOU</h3>
+            <form>
+              <input type="text" placeholder="your email address"><br>
+              <button type="submit">SUBCRIBE WITH US</button>
+            </form>
           </footer>       
     </body>
 </html>
